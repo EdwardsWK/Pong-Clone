@@ -7,7 +7,7 @@ import time
 def main():
     tk = Tk()
     tk.title('Pong Game')
-    tk.resizable(0, 0)
+    tk.resizable(False, False)
     tk.wm_attributes('-topmost', 1)
     canvas = Canvas(tk, width=500, height=400, bd=0, highlightthickness=0)
     canvas.pack()
@@ -109,6 +109,7 @@ class Score:
     def hit(self):
         self.score += 1
         self.canvas.itemconfig(self.id, text=self.score)
+
 
 if __name__ == '__main__':
     main()
