@@ -1,0 +1,21 @@
+# Gradle and Maven with auto-import
+**.iml
+**.ipr
+
+# File-based project format
+**.iws
+
+# IntelliJ Folders
+**/out/
+**/cmake-build-*/
+**/.idea/
+**/.idea_modules/
+
+# JIRA plugin
+**atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+**com_crashlytics_export_strings.xml
+**crashlytics.properties
+**crashlytics-build.properties
+**fabric.properties
