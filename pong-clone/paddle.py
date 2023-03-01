@@ -29,7 +29,7 @@ class Ball:
 
 
 class Paddle:
-    def __int__(self, canvas, color):
+    def __init__(self, canvas, color):
         self.canvas = canvas
         self.id = canvas.create_rectangle(0, 0, 100, 10, fill=color)
         self.canvas.move(self.id, 200, 300)
@@ -47,7 +47,7 @@ canvas.pack()
 tk.update()
 
 ball = Ball(canvas, 'blue')
-paddle = Paddle()
+paddle = Paddle(canvas, 'purple')
 
 while 1:
     ball.draw()
