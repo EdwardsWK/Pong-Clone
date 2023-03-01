@@ -10,6 +10,9 @@
 **/cmake-build-*/
 **/.idea/
 **/.idea_modules/
+**/bin/
+**/lib/
+**/lib64/
 
 # JIRA plugin
 **atlassian-ide-plugin.xml
